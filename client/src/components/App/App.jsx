@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import logo from './logo.png';
 import './App.css';
 
-import Home from './components/Home.jsx';
-import Parents from './components/Parents.jsx';
-import Teachers from './components/Teachers.jsx';
-import Admin from './components/Admin.jsx';
-import About from './components/About.jsx';
-import Signin from './components/Signin.jsx';
+import Home from '../Home/Home.jsx';
+import Parents from '../Parents/Parents.jsx';
+import Teachers from '../Teachers/Teachers.jsx';
+import Admin from '../Admin/Admin.jsx';
+import About from '../About/About.jsx';
+import Signin from '../Signin/Signin.jsx';
 
 class App extends Component {
   state = {

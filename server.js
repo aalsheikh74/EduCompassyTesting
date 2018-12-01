@@ -5,6 +5,22 @@ const port = process.env.PORT || 5000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// Database:
+// var db = require('./db/mysql/connect.js');
+var dbconn = require('./db/mysql/conn');
+
+// db.con.connect(function(err) {
+//   if (err) console.log(err) ;
+//   console.log("Connected!");
+// });
+
+dbconn.connect(function(err) {
+  if (err) console.log(err) ;
+  console.log("Connected!");
+});
+
+
+
 
 /*
   Reading:

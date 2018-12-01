@@ -4,7 +4,10 @@
 /node_modules
 /client/node_modules
 
+/db/mysql/conn
+
 /.pnp
+
 .pnp.js
 
 # testing
